@@ -11,7 +11,7 @@ use App\Services\UrlShortenerService;
 use App\Models\Urls;
 use Mpdf\Mpdf;
 
-
+// composer require mpdf/mpdf:^8.2 --with-all-dependencies
 class DashboardController extends Controller
 {
 	protected $urlService;
