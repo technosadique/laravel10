@@ -1,0 +1,13 @@
+#mail integration
+https://mailtrap.io/signin
+
+credential : jimmi77400@gmail.com  /  Jimmi@mailtrap111
+update .env file 
+MAIL_MAILER=smtp
+MAIL_HOST=sandbox.smtp.mailtrap.io
+MAIL_PORT=2525
+MAIL_USERNAME=f92a55750cd4b6
+MAIL_PASSWORD=6c6f2b9696e01b
+MAIL_ENCRYPTION=null
+MAIL_FROM_ADDRESS="noreply@example.com"
+MAIL_FROM_NAME="${APP_NAME}"
